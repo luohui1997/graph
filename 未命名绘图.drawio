@@ -1,1 +1,165 @@
-<mxfile host="app.diagrams.net" modified="2022-04-16T02:07:36.846Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" version="16.2.7" etag="izC8RT2rg5R-cbD0NNTl" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-16T07:01:08.356Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="SXxUhdXFU72r3y65WuI8" version="16.2.7" type="github" pages="2">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="render mount阶段">
+    <mxGraphModel dx="3153" dy="3216" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="j-2spByOkJSlUc1d44qn-0" value="递阶段" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-1" value="beginWork" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-2" value="updateHostComponent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-3" value="reconcileChildren" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-4" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 21px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;ChildReconciler&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-5" value="reconcileSingleElement" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-6" value="首个节点，tag为3，hostRoot" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-7" value="文件：reactChildfiber" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-8" value="createFiberFromElement" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-9" value="FiberNode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-10" value="createFiberFromTypeAndProps" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-11" value="通过React element数据创建一个fiber节点" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-12" value="创建Fiber节点" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="700" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-13" value="beginWork是数组，也只会创建一个fiber节点" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-14" value="completeWork" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1010" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-15" value="归阶段" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="820" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-16" value="mount流程--首次挂载" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="-150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-17" value="createInstance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1010" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-18" value="createElement" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1010" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-19" value="setInitialProperties" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1010" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-20" value="setAttribute" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1010" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-21" value="appendAllChildren" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1010" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-22" value="completeWork" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1230" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-23" value="completeWork" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1260" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-24" value="completeWork" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1260" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-25" value="设置初始属性" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="830" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-26" value="创建节点dom" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="820" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j-2spByOkJSlUc1d44qn-27" value="将已经创建好的子节点挂载在当前节点下" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="820" y="330" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NLZAdQfrLQXdzxykdzIA" name="render update阶段">
+    <mxGraphModel dx="946" dy="1783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="IwTCVpcvrf1mT1D9PxWr-0" />
+        <mxCell id="IwTCVpcvrf1mT1D9PxWr-1" parent="IwTCVpcvrf1mT1D9PxWr-0" />
+        <mxCell id="IwTCVpcvrf1mT1D9PxWr-2" value="FiberRootNode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="IwTCVpcvrf1mT1D9PxWr-1">
+          <mxGeometry x="354" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IwTCVpcvrf1mT1D9PxWr-3" value="整个应用的根节点" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="IwTCVpcvrf1mT1D9PxWr-1">
+          <mxGeometry x="550" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IwTCVpcvrf1mT1D9PxWr-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="IwTCVpcvrf1mT1D9PxWr-1" source="IwTCVpcvrf1mT1D9PxWr-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IwTCVpcvrf1mT1D9PxWr-4" value="rootFiber" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="IwTCVpcvrf1mT1D9PxWr-1">
+          <mxGeometry x="250" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IwTCVpcvrf1mT1D9PxWr-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="IwTCVpcvrf1mT1D9PxWr-1" source="IwTCVpcvrf1mT1D9PxWr-2" target="IwTCVpcvrf1mT1D9PxWr-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="354" y="220" as="sourcePoint" />
+            <mxPoint x="404" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IwTCVpcvrf1mT1D9PxWr-11" value="current" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IwTCVpcvrf1mT1D9PxWr-6">
+          <mxGeometry x="-0.199" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IwTCVpcvrf1mT1D9PxWr-7" value="当前应用的根节点" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="IwTCVpcvrf1mT1D9PxWr-1">
+          <mxGeometry x="100" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IwTCVpcvrf1mT1D9PxWr-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="IwTCVpcvrf1mT1D9PxWr-1" source="IwTCVpcvrf1mT1D9PxWr-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IwTCVpcvrf1mT1D9PxWr-10" value="rootFiber" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="IwTCVpcvrf1mT1D9PxWr-1">
+          <mxGeometry x="460" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IwTCVpcvrf1mT1D9PxWr-16" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IwTCVpcvrf1mT1D9PxWr-1" source="IwTCVpcvrf1mT1D9PxWr-14" target="IwTCVpcvrf1mT1D9PxWr-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IwTCVpcvrf1mT1D9PxWr-14" value="APP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="IwTCVpcvrf1mT1D9PxWr-1">
+          <mxGeometry x="460" y="330" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IwTCVpcvrf1mT1D9PxWr-15" value="div" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="IwTCVpcvrf1mT1D9PxWr-1">
+          <mxGeometry x="460" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IwTCVpcvrf1mT1D9PxWr-17" value="workInProgress&lt;br&gt;fiber树" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="IwTCVpcvrf1mT1D9PxWr-1">
+          <mxGeometry x="620" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IwTCVpcvrf1mT1D9PxWr-18" value="视图更新完成之后current指向workInProgress&lt;br&gt;fiber树" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="IwTCVpcvrf1mT1D9PxWr-1">
+          <mxGeometry x="230" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IwTCVpcvrf1mT1D9PxWr-19" value="第一次进入createWorkInProgress current的alternate指针是空的" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="IwTCVpcvrf1mT1D9PxWr-1">
+          <mxGeometry x="820" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IwTCVpcvrf1mT1D9PxWr-20" value="workInProgress&lt;br&gt;通过alternate指针指向current fiber树" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="IwTCVpcvrf1mT1D9PxWr-1">
+          <mxGeometry x="770" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IwTCVpcvrf1mT1D9PxWr-21" value="completeUnitOfWork" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="IwTCVpcvrf1mT1D9PxWr-1">
+          <mxGeometry x="1110" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ODUVucSe0wvAqdnKfcrg-0" value="这部分还不是很懂" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="IwTCVpcvrf1mT1D9PxWr-1">
+          <mxGeometry x="650" y="-50" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
